@@ -14,3 +14,10 @@
 # Configuration to push all files to git repository
 1. git config --global user.name
 2. git config --global user.email
+
+# Configuration to commit code to github
+1. git add . #To add all files
+2. git add filename #To add single file
+3. git commit -m "commit message"
+4. git push <remote> <branch> # git push origin main
+5. git push -f <remote> <branch> # git push -f origin main
