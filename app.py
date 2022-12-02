@@ -14,6 +14,7 @@ scalar = pickle.load(open('scaling.pkl','rb'))
 def home():
     return render_template('home.html')
 
+#Using Postman
 @app.route('/predict_api',methods=['POST'])
 def predict_api():
     data = request.json['data']
